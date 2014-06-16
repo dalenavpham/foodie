@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Foodie::VERSION
   spec.authors       = ["Vy"]
   spec.email         = ["vy@substantial.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{This is Vy's Gem}
+  spec.summary       = %q{This is the foodie gem}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -24,4 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "activesupport", "~> 4.0.0"
   spec.add_development_dependency "cucumber"
   spec.add_development_dependency "aruba"
+
+  spec.add_dependency "thor"
 end

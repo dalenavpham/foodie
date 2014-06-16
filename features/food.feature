@@ -4,9 +4,9 @@ Feature: Food
   I want to be as objective as possible
 
   Scenario: Cabbage is gross
-    When I run "foodie portray cabbage!"
-    Then the output should contain "Gross!"
+    When I run 'foodie portray cabbage!''
+    Then the output should contain 'Gross!'
 
   Scenario: Potato or Potato
-    When I run "foodie pluralize --word Potato"
-    Then the output should contain "Potatoes"
+    When I run 'foodie pluralize --word Potato'
+    Then the output should contain 'Potatoes'
